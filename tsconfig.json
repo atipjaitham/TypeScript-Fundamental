@@ -1,0 +1,14 @@
+{
+    "ts-node": {
+      "compilerOptions": {
+        "module": "commonjs"
+ // Or "esnext" depending on your needs
+      },
+      
+      "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+      ]
+    }
+  }
+  
